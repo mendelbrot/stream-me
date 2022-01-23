@@ -32,7 +32,7 @@ export class AuthResolver {
 
     const token = jwt.sign(
       payload,
-      process.env.SESSION_SECRET || 'aslkdfjoiq12312'
+      process.env.SESSION_SECRET!
     );
 
     return { user, token };
@@ -61,7 +61,7 @@ export class AuthResolver {
 
     const token = jwt.sign(
       payload,
-      process.env.SESSION_SECRET || 'aslkdfjoiq12312'
+      process.env.SESSION_SECRET!
     );
 
     return { user, token };

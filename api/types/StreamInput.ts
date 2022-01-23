@@ -1,6 +1,6 @@
 import { InputType, Field } from 'type-graphql';
 import { ObjectId } from 'mongodb';
-import { Stream } from 'entity/Stream';
+import { Stream } from '../entity/Stream';
 
 @InputType()
 export class StreamInput implements Partial<Stream> {
