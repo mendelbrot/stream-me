@@ -31,7 +31,8 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <link
-            rel="stylesheet"
+            // rel="stylesheet"
+            type="text/html"
             href="https://fonts.googleapis.com/css?family=?family=Tangerine"
           />
         </Head>

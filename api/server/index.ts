@@ -17,8 +17,8 @@ async function createServer() {
 
     // allow CORS from client app
     const corsOptions = {
-      // origin: 'http://localhost:3000',
-      origin: '*',
+      origin: 'http://localhost:3000',
+      // origin: '*',
       credentials: true,
     };
     app.use(cors(corsOptions));
